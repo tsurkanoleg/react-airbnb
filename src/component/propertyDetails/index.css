@@ -1,0 +1,9 @@
+.propertyDetails {
+	display: grid;
+	gap: 15px;
+}
+
+.propertyDetails__list {
+	display: grid;
+	gap: 5px;
+}

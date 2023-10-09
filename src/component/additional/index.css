@@ -1,0 +1,42 @@
+.title {
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+}
+
+.title__text {
+	font-size: 56px;
+	font-weight: bold;
+	color: #000;
+}
+
+.additional__box {
+	display: grid;
+	gap: 36px;
+}
+
+.title__sub {
+	display: grid;
+	gap: 36px;
+}
+
+.title__sub-block {
+	display: grid;
+	gap: 16px;
+}
+
+.title__sub--title {
+	color: #000;
+	font-size: 20px;
+	font-style: normal;
+	font-weight: 600;
+	line-height: 16px;
+}
+
+.title__sub--description {
+	color: #000;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 16px; 
+}

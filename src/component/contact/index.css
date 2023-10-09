@@ -1,0 +1,36 @@
+.contact__details{
+	display: flex;
+	gap: 20px;
+}
+
+.contact__photo {
+	width: 80px;
+	height: 80px;
+	border-radius: 40px;
+}
+
+.contact__info {
+	display: grid;
+}
+
+.contact__response{ 
+	display: flex;
+	gap: 12px;
+	
+}
+
+.contact__response-value {
+	display: flex;
+	gap: 16px;
+	align-items: center;
+}
+
+
+.contact__response-value:not(:last-child)::after {
+	content: "";
+	display: block;
+	height: 4px;
+	width: 4px;
+	border-radius: 4px;
+	background-color: #000;
+}
